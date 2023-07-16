@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-cards',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent {
+
+  @Input() imagen : string = '';
+  @Input() nombre : string = '';
+ 
+  
+
+  constructor ()  {}
+    ngOnInit () : void {
+  }
 
 }
