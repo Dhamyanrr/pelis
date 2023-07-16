@@ -56,3 +56,6 @@ getTrendingAll() {
   
 buscar(value:string) {
   console.log(value)
+}
+
+}   
