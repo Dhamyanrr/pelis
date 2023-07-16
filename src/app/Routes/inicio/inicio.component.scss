@@ -12,6 +12,7 @@
     
 }
 
+
 .title {
     
     margin-left: 80px;
@@ -21,6 +22,12 @@
     height: 80px;
     width: 247px;
 
+}
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 
@@ -106,16 +113,3 @@ section h3 {
 	background-color: #323B54;
 	width: 100%;
 }
-
-// .wrapper-Cards .container {
-//     background: #1e3c72;
-//     background: -webkit-linear-gradient(to right, #2a5298, #091d42);
-//     background: linear-gradient(to right,#2a5298, #081835 );
-//     display: flex;
-//     flex-wrap: wrap;
-//     align-items: flex-start;
-    
-    
-// }
-// .card {
-//     width: 100%;

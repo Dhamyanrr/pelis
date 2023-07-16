@@ -13,7 +13,8 @@
     max-width: 282px ;
     max-height: 480px;
     padding: 8px;    
-	Gap: 16px;
+	gap: 16px;
+    margin: 10px;
 	
 
 }
@@ -57,4 +58,11 @@ text-align: left;
 text-transform: capitalize;
 
 
+}
+.btn-add {
+    font-size: 16px;
+    background-color: rgba(96, 128, 243, 0.65);
+    margin-left: 30%;
+    border-radius: 10px;
+    color: antiquewhite;
 }
